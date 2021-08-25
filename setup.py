@@ -16,7 +16,7 @@ mod_cv_algorithms = Extension('cv_algorithms._cv_algorithms',
                                   'src/grassfire.cpp',
                                   'src/popcount.cpp',
                                   'src/neighbours.cpp'],
-                         extra_compile_args=["-g", "-O2", "-march=native"],
+                         extra_compile_args=["-g", "-O2"],
                          extra_link_args=["-g"])
 
 setup(
